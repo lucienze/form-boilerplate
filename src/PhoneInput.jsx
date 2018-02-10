@@ -21,8 +21,7 @@ const PhoneInput = () => {
                 /\d/,
                 /\d/,
                 /\d/
-            ]
-        pattern="\d*"}
+            ]}
         />
     );
 }
