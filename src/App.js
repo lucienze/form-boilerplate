@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import PhoneInput from './PhoneInput';
+import RadioButton from './RadioButton';
+import Rad from './RadioButton'
 
 class App extends Component {
     render() {
@@ -13,6 +15,9 @@ class App extends Component {
                 </header>
                 <p>
                     <PhoneInput />
+                </p>
+                <p>
+                    <Rad values={['Giraffe', 'Elefant']}/>
                 </p>
             </div>
         );
